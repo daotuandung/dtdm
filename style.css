@@ -4,12 +4,14 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
-    /* background-color: #03d3fc; */
+    background-color: #f4f4f5;
     height: 150px;
+    border: 1px solid #dfdce3;
+    border-radius: 0 0 10px 10px;
 }
 
 
@@ -27,6 +29,16 @@ header {
     height: 120px;
 }
 
+.navitr {
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+#flag {
+    width: 40px;
+}
+
 .navline {
     color: black;
 }
@@ -38,11 +50,16 @@ header {
 }
 
 .contents {
-    padding-top: 100px;
+    padding-top: 20px;
+}
+
+.country {
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .slide {
-    max-width: 300px;
+    max-width: 80px;
     margin: 0px auto;
 }
 
@@ -56,4 +73,39 @@ header {
 
 .slide__text {
     text-align: center;
+    font-size: 14px;
+}
+
+
+/* covid */
+
+#DateTime {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+#covidNews {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-transform: uppercase;
+}
+
+.item {
+    width: 70%;
+    color: #5e5e5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #c0e8fc;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px auto;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+i {
+    padding-right: 5px;
+    /* font-size: 25px; */
 }

@@ -7,8 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,200&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <title>Điện toán đám mây</title>
     <link rel="icon" type="image/x-icon" href="./img/logo.png">
     <link rel="stylesheet" href="style.css">
@@ -21,28 +20,67 @@
 
             <img class="logo" src="./img/logo.png" alt="">
 
+            <div class="navitr">
+                <h1>thông tin covid-19 việt nam
+                    <img id="flag" src="" alt="">
+                </h1>
+            </div>
+
             <div class="navline">
-                <p class="navline__text">nhóm <i class="fa-solid fa-bars"></i> </p>
+                <div class="slide">
+                    <div class="mySlides">
+                        <img class="silde__img" src="img\slide1.jpg">
+                        <div class="slide__text">Hoàng Anh</div>
+                    </div>
+                    <div class="mySlides"><img class="silde__img" src="img\slide2.jpg">
+                        <div class="slide__text">Đăng Huy</div>
+                    </div>
+                    <div class="mySlides"><img class="silde__img" src="img\slide3.jpg">
+                        <div class="slide__text">Đức Anh</div>
+                    </div>
+                    <div class="mySlides"><img class="silde__img" src="img\slide4.jpg">
+                        <div class="slide__text">Tuấn Dũng</div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </header>
 
     <div class="contents">
-        <div class="slide">
-            <div class="mySlides">
-                <img class="silde__img" src="img\slide1.jpg">
-                <div class="slide__text">Hoàng Anh</div>
+
+        <div class="DateT">
+            <h4 id="DateTime"></h4>
+        </div>
+
+        <div id="covidNews">
+            <div class="item">
+                <i class="fa-solid fa-virus"></i>
+                <h3 id="item cases">
+                </h3>
             </div>
-            <div class="mySlides"><img class="silde__img" src="img\slide2.jpg">
-                <div class="slide__text">Đăng Huy</div>
+            <div class="item">
+                <i class="fa-solid fa-skull"></i>
+                <h3 id="item deaths"></h3>
             </div>
-            <div class="mySlides"><img class="silde__img" src="img\slide3.jpg">
-                <div class="slide__text">Đức Anh</div>
+            <div class="item">
+                <i class="fa-solid fa-virus"></i>
+                <h3 id="item todayCases"></h3>
             </div>
-            <div class="mySlides"><img class="silde__img" src="img\slide4.jpg">
-                <div class="slide__text">Tuấn Dũng</div>
+            <div class="item">
+                <i class="fa-solid fa-skull"></i>
+                <h3 id="item todayDeaths"></h3>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-hand-holding-medical"></i>
+                <h3 id="item recovered"></h3>
+            </div>
+            <div class="item">
+                <i class="fa-solid fa-hand-holding-medical"></i>
+                <h3 id="item todayRecovered"></h3>
             </div>
         </div>
+
     </div>
 
     <script src="https://kit.fontawesome.com/58ef18673d.js" crossorigin="anonymous"></script>
