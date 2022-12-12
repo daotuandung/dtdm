@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -33,6 +37,7 @@ header {
     display: flex;
     text-transform: uppercase;
     align-items: center;
+    position: relative;
 }
 
 #flag {
@@ -61,6 +66,25 @@ header {
 .slide {
     max-width: 80px;
     margin: 0px auto;
+    cursor: pointer;
+}
+
+.info {
+    position: absolute;
+    background: rgba(145, 145, 145, 0.6);
+    opacity: 0;
+    right: 11%;
+    align-items: center;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.info li {
+    padding: 5px;
+}
+
+.slide:hover .info {
+    opacity: 100%;
 }
 
 .mySlides {
