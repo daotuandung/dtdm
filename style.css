@@ -50,7 +50,7 @@ header {
 }
 
 .contents {
-    padding-top: 20px;
+    padding-top: 40px;
 }
 
 .country {
@@ -82,7 +82,8 @@ header {
 #DateTime {
     text-align: center;
     font-size: 25px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
+    color: gray;
 }
 
 #covidNews {
@@ -92,17 +93,17 @@ header {
 }
 
 .item {
-    width: 70%;
-    color: #5e5e5e;
+    width: 80%;
+    color: white;
+    background-color: #f3585b;
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #c0e8fc;
     font-size: 25px;
     font-weight: 400;
     margin: 10px auto;
     border-radius: 5px;
-    padding: 20px;
+    padding: 30px;
 }
 
 i {
