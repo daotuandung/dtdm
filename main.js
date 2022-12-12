@@ -29,6 +29,8 @@ fetch(postApi)
         var recovered = news.recovered
         var todayRecovered = news.todayRecovered
         var flagg = news.countryInfo.flag
+        var population = news.population
+        var critical = news.critical
         document.getElementById('item cases').innerHTML = "Tổng số ca : " + cases
         document.getElementById('item deaths').innerHTML = "Tổng số thiệt mạng : " + deaths
         document.getElementById('item todayCases').innerHTML = "Số ca mới trong ngày : " + todayCases
@@ -36,6 +38,8 @@ fetch(postApi)
         document.getElementById('item recovered').innerHTML = "Tổng số phục hồi : " + recovered
         document.getElementById('item todayRecovered').innerHTML = "Số phục hồi trong ngày : " + todayRecovered
         document.getElementById("flag").src = flagg
+        document.getElementById('population').innerHTML = "Tổng dân số : " + population
+        document.getElementById('critical').innerHTML = "Số ca nguy kịch : " + critical
     })
 
 
